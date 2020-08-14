@@ -16,13 +16,17 @@
   letter-spacing: 3px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  padding: 0 20px;
+  padding: 0 22px;
 }
 
-.logo-m {
+.logo-circle {
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
   margin-right: 6px;
   border-radius: 50%;
-  padding: 12px;
   font-size: 32px;
   background: linear-gradient(to left, rgb(226, 172, 121), rgb(255, 0, 0));
 }
@@ -54,7 +58,7 @@
   cursor: pointer;
 }
 
-.user-profile-box {
+.user-profile {
   display: flex;
   align-items: center;
   justify-content: center;

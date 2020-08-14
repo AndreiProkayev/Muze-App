@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import LeftNav from "./components/LeftNav/LeftNav";
+import Menu from "./components/Menu/Menu";
 import UserView from "./components/UserView/UserView";
 import Footer from "./components/Footer/Footer";
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main">
       <Header />
-      <LeftNav />
+      <Menu />
       <UserView />
       <Footer />
     </div>

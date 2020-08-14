@@ -3,23 +3,23 @@ import "./UserView.css";
 
 function PopularArtists() {
   return (
-    <div class="popular-artists">
+    <div className="popular-artists">
       <h2>Popular Artists</h2>
 
-      <div class="popular-list">
-        <div class="popular-artist-img">
+      <div className="popular-list">
+        <div className="popular-artist-img">
           IMG<p>Name</p>
         </div>
-        <div class="popular-artist-img">
+        <div className="popular-artist-img">
           IMG<p>Name</p>
         </div>
-        <div class="popular-artist-img">
+        <div className="popular-artist-img">
           IMG<p>Name</p>
         </div>
-        <div class="popular-artist-img">
+        <div className="popular-artist-img">
           IMG<p>Name</p>
         </div>
-        <div class="popular-artist-img">
+        <div className="popular-artist-img">
           IMG<p>Name</p>
         </div>
       </div>
