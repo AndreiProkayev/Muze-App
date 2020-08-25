@@ -9,7 +9,12 @@ function Artists(props) {
     </div>
   ));
 
-  return <div className="popular-list">{artistsComponent}</div>;
+  return (
+    <div className="popular-area">
+      <h1>Popular Artist</h1>
+      <div className="popular-list">{artistsComponent}</div>
+    </div>
+  );
 }
 
 export default Artists;

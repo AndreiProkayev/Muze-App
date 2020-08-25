@@ -1,7 +1,8 @@
 import React from "react";
 import TrendingBox from "./Trending/TrendingBox";
-import "./UserView.css";
 import Artists from "./Popular/Artists";
+import TopPlayList from "./Top&Recommend/TopPlayList";
+import "./UserView.css";
 
 const artists = [
   {
@@ -41,6 +42,7 @@ function UserView() {
     <div className="view-box">
       <TrendingBox />
       <Artists artists={artists} />
+      <TopPlayList />
     </div>
   );
 }
